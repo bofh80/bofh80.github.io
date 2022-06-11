@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>Linux Computer Docs</title>
 <meta name="generator" content="Bluefish 2.2.12" >
 <meta name="author" content="bofh80" >
-<meta name="date" content="2022-06-11T04:06:57+0100" >
+<meta name="date" content="2022-06-11T04:25:46+0100" >
 <meta name="copyright" content="">
 <meta name="keywords" content="">
 <meta name="description" content="">
@@ -22,7 +22,10 @@
 <code>sudo dnf check-update</code><br>
 <code>sudo dnf upgrade --best --allowerasing -y</code><br>
 <br>
-<b>Distrubution Upgrade</b><br>
+<b>Distro Upgrade</b><br>
+<br>
+<code>Check your current version</code>
+<code>lsb_release -a</code><br>
 <br>
 When fedora 36 comes out:<br>
 <br>
@@ -32,8 +35,7 @@ When fedora 36 comes out:<br>
 <code>sudo dnf system-upgrade reboot</code><br>
 <br>
 When 37 comes out, change to releasever=37 etc etc<br>
+You can only upgrade 2 at a time. So if you are on 34, you have to upgrade to 36 before 37.<br>
 <br>
-
-
 </body>
 </html>
