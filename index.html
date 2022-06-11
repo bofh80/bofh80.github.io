@@ -4,7 +4,7 @@
 <title></title>
 <meta name="generator" content="Bluefish 2.2.12" >
 <meta name="author" content="bofh80" >
-<meta name="date" content="2022-06-11T03:56:46+0100" >
+<meta name="date" content="2022-06-11T04:03:51+0100" >
 <meta name="copyright" content="">
 <meta name="keywords" content="">
 <meta name="description" content="">
@@ -17,21 +17,21 @@
 <body>
 <b>Fedora</b><br>
 <br>
-<b>Normal updates</b><br>
+<p><b>Normal updates</b><br>
 <br>
 <code>sudo dnf check-update</code><br>
 <code>sudo dnf upgrade --best --allowerasing -y</code><br>
-<br>
-<b>Distrubution Upgrade</b><br>
+<br></p>
+<p><b>Distrubution Upgrade</b><br>
 <br>
 When fedora 36 comes out:<br>
 <br>
 <code>sudo dnf upgrade --refresh</code><br>
 <code>sudo dnf install dnf-plugin-system-upgrade</code><br>
-<code>sudo dnf system-upgrade download --releasever=36</code><br>
-<br>
+<code>sudo dnf system-upgrade download --releasever=36 --best --allowerasing</code><br>
+<code>sudo dnf system-upgrade reboot</code><br>
 When 37 comes out, change to releasever=37 etc etc<br>
-<br>
+<br></p>
 
 
 </body>
